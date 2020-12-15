@@ -35,7 +35,7 @@ Other dependencies are `numpy` and `pyyaml` (if needed, will be installed with
 Once the dependencies are installed, `dynim` can be installed as follows:
 
 ```
-git clone git@github.com:LLNL/dynim.git
+git clone https://github.com/CBIIT/NCI-DOE-Collab-Pilot2-DynIm 
 cd dynim
 pip install .
 ```
