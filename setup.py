@@ -16,7 +16,7 @@ setup(
     version=__version__,
     license='MIT',
     description='Dynamic Importance Sampling',
-    url='https://github.com/LLNL/dynim',
+    url='https://github.com/CBIIT/NCI-DOE-Collab-Pilot2-DynIm',
     author=['Harsh Bhatia', 'Joseph Y. Moon'],
     author_email=['hbhatia@llnl.gov', 'moon15@llnl.gov'],
     keywords='',
