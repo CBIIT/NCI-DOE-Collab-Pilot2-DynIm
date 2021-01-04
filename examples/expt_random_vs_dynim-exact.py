@@ -133,7 +133,10 @@ if __name__ == '__main__':
     run_mode = sys.argv[1]
     assert run_mode in ['expt', 'plot_each', 'plot_ensemble']
 
+    
     DATA_PATH = './data_expts'
+    if not os.path.exists(DATA_PATH):
+        os.mkdir(DATA_PATH)
 
     # --------------------------------------------------------------------------
     # perform a (single, new) experiment
