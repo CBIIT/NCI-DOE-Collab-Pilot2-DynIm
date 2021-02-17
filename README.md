@@ -42,7 +42,7 @@ Software: contained in this GitHub repository.
 
 DynIm uses [`faiss`](https://github.com/facebookresearch/faiss) to implement
 nearest neighbor searches for sampling, and has been tested with `faiss v1.6.3`.
-Currently, we ask the user to install `faiss` explicitly from source. Please
+Currently, we ask the user to install faiss explicitly from source. Please
 see [here](https://github.com/facebookresearch/faiss/blob/master/INSTALL.md)
 for installation instructions.
 
