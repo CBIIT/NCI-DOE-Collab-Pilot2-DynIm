@@ -13,10 +13,10 @@ selected samples to define the importance of potential selections, and selects
 the ones that are most dissimilar. Simply, DynIm provides a *farthest-point*
 sampling approach.
 
-Currently, `DynIm` uses L2 distances in the given high-dimensional space to
+Currently, DynIm uses L2 distances in the given high-dimensional space to
 define similarity and can be configured to use *exact* as well as *approximate*
 distances. Approximate distances are useful for computational viability for
-large data sizes and large data dimensionality. `DynIm` also provides a random
+large data sizes and large data dimensionality. DynIm also provides a random
 sampler for comparison of sampling quality.
 
 ### User Community:	
@@ -40,18 +40,18 @@ Software: contained in this GitHub repository.
 
 #### Dependencies
 
-`DynIm` uses [`faiss`](https://github.com/facebookresearch/faiss) to implement
+DynIm uses [`faiss`](https://github.com/facebookresearch/faiss) to implement
 nearest neighbor searches for sampling, and has been tested with `faiss v1.6.3`.
 Currently, we ask the user to install `faiss` explicitly from source. Please
 see [here](https://github.com/facebookresearch/faiss/blob/master/INSTALL.md)
-for installation instructions..
+for installation instructions.
 
 Other dependencies are `numpy` and `pyyaml` (if needed, will be installed with
-`DynIm`).
+DynIm).
 
 #### Installation
 
-Once the dependencies are installed, `DynIm` can be installed as follows:
+Once the dependencies are installed, DynIm can be installed as follows:
 
 ```
 git clone https://github.com/CBIIT/NCI-DOE-Collab-Pilot2-DynIm 
